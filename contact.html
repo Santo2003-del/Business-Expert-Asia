@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Business Expert Asia - Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="contact-page">
+
+  <!-- NAVBAR -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-highlight">Business</span> Expert Asia
+      </div>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+      <nav>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="who-we-are.html">Who We Are</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a href="#contact-form" class="btn-primary nav-cta">Get In Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="page-hero fade-up">
+    <div class="container">
+      <p class="hero-tag">CONTACT</p>
+      <h1>Let’s Start the Conversation</h1>
+      <p class="hero-subtitle">Tell us about your business, and we’ll help you move forward.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT GRID -->
+  <section class="section fade-up">
+    <div class="container contact-grid">
+      <!-- FORM -->
+      <div class="contact-card" id="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contactForm">
+          <label for="name">Your Name</label>
+          <input id="name" type="text" placeholder="Full name" />
+
+          <label for="email">Your Email</label>
+          <input id="email" type="email" placeholder="Email address" />
+
+          <label for="phone">Your Phone</label>
+          <input id="phone" type="tel" placeholder="Phone number" />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Write your message..."></textarea>
+
+          <button class="btn-primary full-width">Submit</button>
+        </form>
+        <p id="formMessage" class="form-message"></p>
+      </div>
+
+      <!-- CONTACT INFO / IMAGE -->
+      <div class="contact-card contact-image-card">
+        <h2>Reach Us</h2>
+        <p><strong>Office Address:</strong> Pune, Maharashtra, India</p>
+        <p><strong>Talk to Expert:</strong> +91 99234 00566</p>
+        <p><strong>Email:</strong> info@businessexpert.asia</p>
+
+        <div class="contact-side-image">
+          <img
+            src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=900"
+            alt="Support team" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container footer-grid">
+      <div><h4>About</h4><p>We support international businesses in India.</p></div>
+      <div>
+        <h4>Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="who-we-are.html">Who We Are</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Pune, Maharashtra, India</p>
+        <p>+91 99234 00566</p>
+        <p>info@businessexpert.asia</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 Business Expert Asia.</div>
+  </footer>
+
+  <script src="../JsFiles/script.js"></script>
+  <script src="../JsFiles/contact.js"></script>
+</body>
+</html>
